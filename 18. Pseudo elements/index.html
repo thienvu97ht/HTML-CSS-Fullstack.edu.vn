@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo classes</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .box {
+            width: calc(120px -50px);
+            height: 120px;
+            background: rgb(190, 124, 157);
+        }
+
+        .box:active {
+            background-color: #333;
+        }
+
+        h1:hover {
+            color: red;
+        }
+
+        li:first-child {
+            color: red;
+        }
+
+        li:last-child {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+
+    <a href="https://fullstack.edu.vn/">Học lập trình</a>
+
+    <h1>CSS pseudo-classes</h1>
+    <ul>
+        <li>:root</li>
+        <li>:hover</li>
+        <li>:active</li>
+        <li>:first-child</li>
+        <li>:last-child</li>
+    </ul>
+</body>
+</html>
